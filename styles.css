@@ -1,0 +1,108 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  
+    body {
+        font-family: 'Times New Roman', Times, serif;
+        background-image: url("https://scontent.fcrk1-1.fna.fbcdn.net/v/t1.15752-9/252414091_252641296909117_2094222406397208874_n.jpg?stp=dst-jpg_p2048x2048&_nc_cat=108&cb=99be929b-59f725be&ccb=1-7&_nc_sid=ae9488&_nc_eui2=AeHcSJZHeu-pQ8EXEAS5bjfm2zxtojZodI7bPG2iNmh0jhI69rEx5t5G-V0__eYiyyxa_Nb9jmJ3zME5Mv-lRbXU&_nc_ohc=DHdggvA4P7wAX8t8x3M&_nc_ht=scontent.fcrk1-1.fna&oh=03_AdQM25Pdrk5xBEQcpiyVpgUxcAhFvjDoS56WG8xWtB1Fbg&oe=64BF8902");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+      }
+      
+  
+  
+  .container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  #navbar {
+    background-color: rgba(255, 251, 251, 0.027);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+  }
+  
+  #navbar ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    font-size: 40px;
+  }
+  
+  #navbar li {
+    margin-right: 20px;
+  }
+  
+  #navbar a {
+    color: rgb(255, 255, 255);
+    text-decoration: thistle;
+  }
+  
+  #navbar a:hover {
+    text-decoration: underline;
+  }
+  
+  #welcome-section {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+  }
+  
+  #welcome-section .container {
+    text-align: center;
+    color:rgb(255, 255, 255);
+    padding: 20px;
+  }
+  
+  #welcome-section h1 {
+    font-size: 80px;
+    margin-bottom: 20px;
+  }
+  
+  #projects {
+    padding: 45px 0;
+    color: whitesmoke;
+    font-size: 25px;
+    
+  }
+  
+  #projects a#profile-link {
+    display: none;
+  }
+  
+  .project-tile {
+    background-color:#a4acac;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(50, 213, 210, 0.1);
+    border-radius: 25px;
+  }
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+  }
+  
+  /* Media Query for Responsive Design */
+  @media (max-width: 768px) {
+    .container {
+      padding: 10px;
+    }
+  
+    #projects a#profile-link {
+      display: inline-block;
+    }
+    h2{
+      background-color:#c4a67a;
+    }
+  }
